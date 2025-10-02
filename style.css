@@ -1,0 +1,86 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background: linear-gradient(135deg, #4F8CFF 0%, #FFB74D 100%);
+    color: #222;
+}
+.hero {
+    background: linear-gradient(120deg, #FF9800 40%, #4F8CFF 100%);
+    color: #fff;
+    padding: 60px 0 40px 0;
+    text-align: center;
+    border-bottom: 5px solid #7C4DFF;
+}
+.hero h1 span.text-warning {
+    color: #FFD600;
+    text-shadow: 0 2px 16px #FF9800;
+}
+.hero h1 span.text-info {
+    color: #00E676;
+    text-shadow: 0 2px 16px #00E676;
+}
+.hero .btn-warning {
+    background: linear-gradient(90deg, #FFD600 60%, #FF9800 100%);
+    color: #222;
+    border: none;
+    box-shadow: 0 2px 16px #FF9800;
+}
+.hero .btn-info {
+    background: linear-gradient(90deg, #00E676 60%, #4F8CFF 100%);
+    color: #fff;
+    border: none;
+    box-shadow: 0 2px 16px #00E676;
+}
+.navbar {
+    background: linear-gradient(90deg, #7C4DFF 60%, #4F8CFF 100%) !important;
+}
+.navbar-brand {
+    color: #FFD600 !important;
+    text-shadow: 1px 1px 4px #4F8CFF;
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+    color: #FF9800 !important;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #fff;
+}
+.services .card {
+    border: none;
+    background: linear-gradient(120deg, #00E676 30%, #7C4DFF 100%);
+    color: #fff;
+    box-shadow: 0 4px 24px rgba(33,37,41,0.16);
+    transition: transform 0.2s;
+}
+.services .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 32px #7C4DFF;
+}
+.services .card-title {
+    color: #FFD600;
+    text-shadow: 0 2px 8px #FF9800;
+}
+.footer {
+    background: linear-gradient(90deg, #7C4DFF 60%, #00E676 100%);
+    color: #fff;
+    padding: 18px 0;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.list-group-item {
+    background: #FFB74D;
+    color: #222;
+    font-weight: 500;
+    border: none;
+    border-bottom: 2px solid #4F8CFF;
+}
+.btn-primary {
+    background: linear-gradient(90deg, #4F8CFF 60%, #7C4DFF 100%);
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    box-shadow: 0 2px 16px #7C4DFF;
+}
+.btn-info, .btn-warning {
+    font-weight: bold;
+}
